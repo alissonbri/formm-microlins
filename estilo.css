@@ -1,0 +1,126 @@
+/*Zerando todos os dados */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Roupagem do HTML */
+body {
+  width: 100%;
+  background-color: #10acdb;
+  display: block;
+  margin-left: 30%;
+  align-items: center;
+}
+
+.container {
+  position: relative;
+  display: block;
+  left: 350px;
+  background-color: #fafafa96;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  width: 400px;
+  max-width: 100%;
+  overflow: hidden;
+}
+.container h2 {
+  color: #7d25b8de;
+}
+
+.header {
+  background-color: #10acdb;
+  padding: 20px;
+  text-align: center;
+}
+
+.form {
+  padding: 20px;
+}
+
+.form-control {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.form-control label {
+  margin-bottom: 5px;
+}
+
+.form-control input {
+  border: 2px solid #f0f0f0;
+
+  border-radius: 10px;
+  font-size: 14px;
+  width: 100%;
+  padding: 10px;
+}
+
+.form button {
+  position: relative;
+  margin-left: 25%;
+  background-color: #4275d49a;
+  border: 2px solid #4275d49a;
+  color: #fff;
+  font-size: 15px;
+  width: 50%;
+  border-radius: 10px;
+  padding: 10px;
+}
+#botao:hover {
+  background-color: #2ecc71;
+  transition: all 0.3s;
+}
+.select {
+  height: 25px;
+  font-size: 17px;
+  border-radius: 10px;
+}
+img {
+  position: relative;
+  top: 200px;
+  left: -190px;
+  width: 450px;
+  height: auto;
+  border-bottom-style: none;
+  border-color: #000000;
+  border-left-style: none;
+  border-radius: 0px;
+  border-right-style: none;
+  border-top-style: none;
+  border-width: 1px;
+}
+img {
+  display: flex;
+}
+.pimg {
+  position: relative;
+  top: 210px;
+  left: -130px;
+  text-align: left;
+  background-color: transparent;
+  font-size: 38px;
+  color: rgb(237, 28, 145);
+  font-family: Lato, sans-serif;
+}
+.pimg2 {
+  position: relative;
+  top: 230px;
+  left: -140px;
+  text-align: left;
+  background-color: transparent;
+  font-size: 22px;
+  color: rgb(11, 65, 167);
+  font-family: sans-serif;
+}
+@media screen and (max-width: 768px) {
+  .body {
+    display: block;
+  }
+  .container {
+    display: block;
+  }
+}
